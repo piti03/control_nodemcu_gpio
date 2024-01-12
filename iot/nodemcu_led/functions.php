@@ -1,7 +1,7 @@
 <?php
 
     // CONNECT to DATABASE
-    $con = mysqli_connect("localhost","rabipoor_nodemcu","hamidreza1984","rabipoor_iot");
+    $con = mysqli_connect("localhost","username","password","database");
     if(mysqli_connect_errno())
         echo "something went wrong". mysqli_connect_error();
     
