@@ -5,11 +5,11 @@
 #include <ArduinoJson.h>
 #include <Arduino_JSON.h>
 
-const char* ssid = "shatel";
-const char* password = "@136313631363@";
+const char* ssid = "your_ssid";
+const char* password = "wifi_password";
 
 // The URL of your site.
-const char* serverName = "http://rabipoor.ir/iot/nodemcu_led/mcu_feeds.php";
+const char* serverName = "server_address";
 
 
 void setup() {
